@@ -8,7 +8,7 @@ namespace Practico_2_ASP.NET
     public class Contexto
     {
         public List<Evento> eventos = new List<Evento>();
-
+		//Este es un cambio mínimo, para comprobar que todo funque, o si hay que buscar otro repo, espero que no....
         public Contexto()
         {
             eventos.Add(new Evento() { 
