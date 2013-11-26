@@ -1,0 +1,42 @@
+﻿body 
+{
+    
+}
+
+#form1
+{
+    width: 100%;
+}
+
+.leftControl
+{
+    float: left;
+    width: 235px;
+}
+
+.downControl
+{
+    float: none;
+}
+
+#evento
+{
+    border: 1 solid;
+    width: 100%;
+}
+
+#combo
+{
+ 
+}
+
+#inscripcion
+{
+    border: 1 solid;
+    /*text-align: center;*/
+}
+
+#tablaInscripcion
+{
+
+}
