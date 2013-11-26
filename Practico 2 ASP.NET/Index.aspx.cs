@@ -18,7 +18,7 @@ namespace Practico_2_ASP.NET
                 comboEvento.Items.Add(c.eventos[1].Nombre);
                 comboEvento.Items.Add(c.eventos[2].Nombre);
             }
-
+            
 
             Evento ev = c.eventos[comboEvento.SelectedIndex];
 
@@ -28,6 +28,8 @@ namespace Practico_2_ASP.NET
             txtLugar.Text = ev.Lugar;
 
             calendarioInscripcion.Visible = false;
+            
+            Response.Write("Hola. Soy Fer. Y esto es una modificación a un archivo .cs!");
         }
 
         protected void btnFechaInscripcion_Click(object sender, EventArgs e) {
