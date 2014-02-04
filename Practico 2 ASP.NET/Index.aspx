@@ -17,6 +17,7 @@
 
         <asp:UpdatePanel ID="UpdatePanel1" runat="server">
         <ContentTemplate>
+        <h>Hola. Soy Fer. Y esta es una modificación de prueba en un aspx!!!</h>
         <div class="leftControl">
             <asp:ImageMap ID="imagenEvento" runat="server" Height="72px" Width="169px"></asp:ImageMap>
         </div>
